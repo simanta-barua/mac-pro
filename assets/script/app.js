@@ -18,7 +18,7 @@ function promoUpdate() {
     const promoCode = document.getElementById('promo').value;
     if (promoCode == 'stevekaku') {
         const promoNumber = parseFloat(grandTotal.innerText);
-        const promoCalc = promoNumber - ((promoNumber*20)/100);
+        const promoCalc = promoNumber - ((promoNumber * 20) / 100);
         grandTotal.innerText = promoCalc;
         const promoApply = document.getElementById("promoApply");
         promoApply.disabled = true;
@@ -26,8 +26,8 @@ function promoUpdate() {
         document.getElementById("promoMassage").innerText = "Success";
         document.getElementById("promoMassage").style.color = 'green';
     }
-    else if(promoCode === ""){
-        
+    else if (promoCode === "") {
+        document.getElementById("promoMassage").innerText = " ";
     }
     else {
         document.getElementById("promoMassage").innerText = "Failed try again";
