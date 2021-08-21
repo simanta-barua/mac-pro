@@ -11,7 +11,7 @@ function updateTotal() {
     totalCost.innerText = calc;
     // change grandtotal
     grandTotal.innerText = calc;
-    promoUpdate()
+    promoUpdate();
 }
 //promo Update
 function promoUpdate() {
