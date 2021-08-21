@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Pro</title>
+    <!-- Bootstrap CDN -->
+    <link rel="shortcut icon" href="/assets/image/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Bootstrap icon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Custom Style  -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+    <!-- Nav Section -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark  py-0 ">
+        <div class="container">
+            <a class="navbar-brand mx-auto" href="#"><img src="/assets/image/favicon.ico" class="mx-auto d-block  "
+                    alt="apple logo" height="60"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-lg-5">
+                        <a class="nav-link active" aria-current="page" href="#">Store</a>
+                    </li>
+                    <li class="nav-item mx-lg-5">
+                        <a class="nav-link" href="#">Mac</a>
+                    </li>
+                    <li class="nav-item mx-lg-5">
+                        <a class="nav-link" href="#">iPad</a>
+                    </li>
+                    <li class="nav-item mx-lg-5">
+                        <a class="nav-link" href="#">iPhone</a>
+                    </li>
+                    <li class="nav-item mx-lg-5">
+                        <a class="nav-link" href="#">Watch</a>
+                    </li>
+                    <li class="nav-item mx-lg-5">
+                        <a class="nav-link" href="#">TV</a>
+                    </li>
+                    <li class="nav-item mx-lg-5">
+                        <a class="nav-link" href="#">Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-search"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-bag"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav section  -->
+    <!-- Product details -->
+    <section class="container mt-5">
+        <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 row-cols-sm-1 ">
+            <div class="col">
+                <img id="product-image" src="/assets/image/mac1.jpeg" alt="" class="img-fluid">
+                <div class="my-5 ms-3 ">
+                    <img id="slideimage1" class="w-25 mx-2 img-fluid" src="/assets/image/mac1.jpeg" alt="">
+                    <img id="slideimage2" class="w-25 mx-2 img-fluid" src="/assets/image/mac2.jpeg" alt="">
+                    <img id="slideimage3" class="w-25 mx-2 img-fluid" src="/assets/image/mac3.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="col">
+                <!-- Product Summary -->
+                <div class="productSummary">
+                    <h2 class="ms-lg-4">Customize your Blue 24‑inch iMac with Apple M1 chip. </h2>
+                    <ul>
+                        <li class="list-unstyled my-3">Apple M1 chip with 8-core CPU with 4 performance cores and 4
+                            efficiency cores, 7-core GPU, and 16-core Neural Engine</li>
+                        <li class="list-unstyled my-3">8GB unified memory</li>
+                        <li class="list-unstyled my-3">256GB SSD storage</li>
+                        <li class="list-unstyled my-3">Two Thunderbolt / USB 4 ports</li>
+                        <li class="list-unstyled my-3">Magic Mouse</li>
+                        <li class="list-unstyled my-3">Magic Keyboard - US English</li>
+                        <li class="list-unstyled my-3"><a href="#" class="link-primary">Learn more about the Apple M1
+                                chip ></a></li>
+                    </ul>
+                </div>
+                <!-- Product Config -->
+                <div class="productConfig">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <h3>Memory</h3>
+                            <button id="RAM8gb" type="button"
+                                class="btn btn-outline-primary btn-lg  mt-md-3 me-md-3 mb-3 btnmemory">8 GB
+                                unified Memory</button>
+                            <button id="RAM16gb" type="button"
+                                class="btn btn-outline-primary btn-lg mb-3 mb-md-0 btnmemory">16
+                                GB unified
+                                Memory</button>
+                        </li>
+                        <li class="list-group-item">
+                            <h3> Storage</h3>
+                            <button id="SSD256gb" type="button"
+                                class="btn btn-outline-primary btn-lg  mt-md-3 me-md-3 mb-3  ">256 GB
+                                SSD storage</button>
+                            <button id="SSD512gb" type="button" class="btn btn-outline-primary btn-lg mb-3 mb-md-0 ">512
+                                GB SSD
+                                storage</button>
+                            <button id="SSD1TB" type="button" class="btn btn-outline-primary btn-lg me-md-3 mt-md-3">1
+                                TB SSD
+                                storage</button>
+                        </li>
+                        <li class="list-group-item">
+                            <h3>Choose Your Delivery Option</h3>
+                            <button id="freeShipping" type="button"
+                                class="btn btn-outline-primary btn-lg me-lg-3 mb-3 ">Friday, Aug 25
+                                Free Prime Delivery</button>
+                            <button id="paidShipping" type="button" class="btn btn-outline-primary btn-lg">Friday, Aug
+                                21 Delivery charge
+                                $20</button>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Product Cost -->
+                <div class="productCost mt-5">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Best Price </th>
+                                <td>$ <span id="price">1299</span></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Extra Memory cost</th>
+                                <td>$ <span id="exMemoryCost">0</span> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Extra Storage Cost</th>
+                                <td>$ <span id="exStorageCost">0</span></td>
+                            </tr>
+                            <tr class="border-dark">
+                                <th scope="row">Delivery Charge</th>
+                                <td>$ <span id="deliveryCost">0</span></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Total price</th>
+                                <td>$ <span id="totalCost">1299</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- Promo code -->
+                <p id='promoMassage'></p>
+                <div class="d-flex">
+
+                    <input id="promo" class="form-control" type="text" placeholder="Apply Pomo Code" value="">
+                    <button id="promoApply" class="btn btn-danger" type="submit">Apply</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Total Display with promo  -->
+    <section class="container mb-4">
+        <h1 class="text-center display-1">Total: $ <span id="grandTotal">1299</span></h1>
+    </section>
+
+    <!-- custom Script -->
+    <script src="/assets/script/app.js"></script>
+    <!--Bootstrap script  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
