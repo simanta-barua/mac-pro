@@ -16,9 +16,9 @@ function updateTotal() {
 //promo Update
 function promoUpdate() {
     const promoCode = document.getElementById('promo').value;
-    console.log(promoCode);
-    if (promoCode == 'stavekaku') {
-        const promoCalc = parseFloat(grandTotal.innerText) - parseFloat(grandTotal.innerText) / 10;
+    if (promoCode == 'stevekaku') {
+        const promoNumber = parseFloat(grandTotal.innerText);
+        const promoCalc = promoNumber - ((promoNumber*20)/100);
         grandTotal.innerText = promoCalc;
         const promoApply = document.getElementById("promoApply");
         promoApply.disabled = true;
